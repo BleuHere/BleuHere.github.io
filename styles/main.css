@@ -12,8 +12,12 @@ header {
 
 .menu {
   text-align: left;
+  display: inline;
+}
+
+.menu-items {
+  display: inline;
   list-style-type: none;
-  display: inline-block;
 }
 
 .menu a {
@@ -21,9 +25,15 @@ header {
 }
 
 .icons {
+  display: inline;
+  list-style-type: none;
+}
+
+.icon {
   position: absolute;
   right: 0px;
   height: 30px;
   width: auto;
   list-style-type: none;
+  display: inline;
 }
