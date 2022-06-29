@@ -1,7 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 header {
   width: 100%;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
+  padding: 0px;
   border: solid;
+  background-color: aqua;
 }
 
 h1 {
@@ -35,24 +41,34 @@ nav {
 
 .icon-list {
   border: solid;
-  width: 33%;
+  width: 30%;
   float: right;
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 10px 0;
+  
 }
 
 .g-h-icon {
-  height: 50px; /* I need to put these into a flex-box so that they fit nicely as they have different levels of negative space*/
-  width: auto;
+   /* I need to put these into a flex-box so that they fit nicely as they have different levels of negative space*/
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border: solid;
 }
 
 .l-i-icon {
-  height: 30px;
-  width: auto;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border: solid;
 }
 
 .icon-list-item {
   list-style-type: none;
-  display: inline;
 }
 
 
