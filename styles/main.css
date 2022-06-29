@@ -2,6 +2,10 @@ h1 {
   color: blue;
 }
 
+header {
+  background-color: aquamarine;
+}
+
 * {
   background-color: azure;
 }
@@ -21,6 +25,7 @@ h1 {
   position: absolute;
   right: 0px;
   height: 30px;
+  width: auto;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
