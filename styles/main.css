@@ -8,10 +8,20 @@ h1 {
 
 .menu {
   text-align: left;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu a {
+  text-decoration: none
 }
 
 .icons {
   position: absolute;
   right: 0px;
   height: 30px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
