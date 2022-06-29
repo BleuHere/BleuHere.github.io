@@ -34,8 +34,9 @@ header {
 }
 
 .icons {
-  /*display: inline; */
+  display: inline;
   list-style-type: none;
+  padding-right: 40px;
 }
 
 .icon {
@@ -51,8 +52,7 @@ header {
 #portrait {
   width: 500px;
   height: auto;
-  margin: auto;
-}
+  }
 
 .blog-image {
   width: auto;
