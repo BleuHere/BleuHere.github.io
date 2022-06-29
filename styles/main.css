@@ -5,3 +5,13 @@ h1 {
 * {
   background-color: azure;
 }
+
+.menu {
+  text-align: left;
+}
+
+.icons {
+  position: absolute;
+  right: 0px;
+  height: 30px;
+}
