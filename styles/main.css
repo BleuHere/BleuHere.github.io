@@ -23,6 +23,14 @@ header {
 
 .menu a {
   text-decoration: none;
+  color: black;
+}
+.menu a:visited {
+  color: black;
+}
+
+a:hover {
+  color: hotpink;
 }
 
 .icons {
@@ -37,7 +45,8 @@ header {
   width: auto;
   list-style-type: none;
   display: inline;
-}
+  padding: 0 4px;
+} 
 
 #portrait {
   width: 300px;
