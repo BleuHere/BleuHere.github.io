@@ -29,12 +29,12 @@ header {
   color: black;
 }
 
-a:hover {
+.menu a:hover {
   color: hotpink;
 }
 
 .icons {
-  display: inline;
+  /*display: inline; */
   list-style-type: none;
 }
 
@@ -49,13 +49,13 @@ a:hover {
 } 
 
 #portrait {
-  width: 300px;
+  width: 500px;
   height: auto;
   margin: auto;
 }
 
 .blog-image {
   width: auto;
-  height: 200px;
+  height: 300px;
   margin: auto;
 }
