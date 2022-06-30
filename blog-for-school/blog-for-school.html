@@ -4,39 +4,53 @@
     <title>Bleuette Hille</title>
     <link rel="stylesheet" href="/styles/main.css" type="text/css">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>BLEU</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="https://bleuhere.github.io/blog-for-school/blog-for-school.html">EDA Blog</a></li>
-        <li><a href="https://bleuhere.github.io/blog-for-you/posts-for-you.html">Personal Blog</a></li>
-      </ul>
-      <a href="https://github.com/BleuHere"  ><img src="/img/icon-github.jpg" alt="GitHub Icon"></a>
-      <a href="https://www.linkedin.com/in/bleuette-hille-567873224/"><img src="/img/linked-in-icon.png" alt="LinkedIn Icon"></a>
+      <h1><a href="https://bleuhere.github.io">BLEU</a></h1>
+       <nav>
+        <span class="menu">
+          <ul >
+            <li class="menu-items"><a href="https://bleuhere.github.io/blog-for-school/blog-for-school.html">EDA Blog</a></li>
+            <li class="menu-items"><a href="https://bleuhere.github.io/blog-for-you/posts-for-you.html">Personal Blog</a></li>
+          </ul>
+        </span>
+        <div>
+          <ul class="icon-list">
+            <li><a href="https://github.com/BleuHere"><i class="fa fa-github" style="font-size:36px"></a></i></li>
+            <li><a href="https://www.linkedin.com/in/bleuette-hille-567873224/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></li>
+          </ul>
+        </div>
     </nav>
-    <main>
-      <article>
-        <h3><a href="/blog/identity-values.html">Identity and Values</a></h3>
-        <img src="/img/bus-route.JPG" alt="Black and white photo of a street sign pointing to a bus route">
-        <p>This blog post looks into my blah blah blah</p>
+    </header>
+    <main class="index">
+      <div><h2>READ MY POSTS</h2></div>
+      <article class="index">
+        <div><img id="bus-pic" class="blog-image" src="/img/bus-route.JPG" alt="Black and white photo of a street sign pointing to a bus route"></div>
+        <h3><a href="/blog-for-school/identity-values.html">IDENTITY AND VALUES</a></h3>
+        <p>Sprint 1 Core</p>
       </article>
-      <article>
-        <h3><a href="/blog/learning-plan.html">Learning Plan</a></h3>
-        <img src="/img/lights-in-night.JPG" alt="Black and white photo of interesting street lamp in the dark">
-        <p>This blog is about blah blah blah</p>
+      <article class="index">
+        <div><img id="light-pic" class="blog-image" src="/img/lights-in-night.JPG" alt="Black and white photo of interesting street lamp in the dark"></div>
+        <h3><a href="/blog-for-school/learning-plan.html">LEARNING PLAN</a></h3>
+        <p>Sprint 2 Core</p>
       </article>
-      <article>
-        <h3><a href="/blog/sprint-2-tech-blog.html">Sprint 2 Tech Blog</a></h3>
-        <img src="img/bearded-man.JPG" alt="Black and white photo of a street art depiction of a bearded man. He looks a bit holy like White Jesus.">
-        <p>This post will discuss interesting tech stuff.</p>
+      <article class="index">
+        <div><img id="beard-pic" class="blog-image" src="img/bearded-man.JPG" alt="Black and white photo of a street art depiction of a bearded man. He looks a bit holy like White Jesus."></div>
+        <h3><a href="/blog-for-school/sprint-2-tech-blog.html">SPRING 2 BLOG</a></h3>
+        <p>Sprint 2 Tech</p>
       </article>
     </main>
-    <footer>
-      <p>Human rights reserved.</p>
-    </footer>
+      <footer>
+        <p>Human rights reserved. (Duh.)</p>
+      </footer>
   </body>
 </html>
