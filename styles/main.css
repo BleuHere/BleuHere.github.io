@@ -28,7 +28,7 @@ nav {
 }
 
 .menu {
-  width: 33%;
+  width: auto;
   float: left;
 }
 
@@ -41,6 +41,9 @@ nav {
   color: black;
   text-decoration: none;
   text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 500;
   }
 
 .menu-items a:hover {
@@ -48,30 +51,22 @@ nav {
 }
 
 .icon-list {
-  width: 30%;
+  width: 20%;
   float: right;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: flex-end;
+  list-style-type: none;
+  box-sizing: border-box; 
   }
 
-.g-h-icon {
+i {
    /* I need to put these into a flex-box so that they fit nicely as they have different levels of negative space*/
-  width: 50%;
-  height: auto;
   object-fit: cover;
-}
-
-.l-i-icon {
-  width: 50%;
-  height: auto;
-  object-fit: cover;
-}
-
-.icon-list-item {
-  list-style-type: none;
+  color: black;
+  padding: 5px;
 }
 
 section {
