@@ -35,24 +35,24 @@
       <article class="blog">
         <div><h2>CSS: MARGINS, BORDERS AND PADDING</h2></div>
         <div><h5>by Bleuette</h5></div>
-        <div><img class="blog-image" src="/img/bearded-man.JPG" alt="Black and white photo of a bearded man who looks holy like White Jesus"></div>
-        <p>CSS uses the box model to organise spaces in and around an HTML element. Understanding how the margins, borders and padding of an element functions is really useful when designing a webpage.</p>
-        <p>I've seen a lot of box model images, but the squares and lines get me all confused! So I thought I'd explain the box model using something a little different...</p>
-        <p>Here we have a very handsome horse standing on some grass. His name is Larry and I've finally found him after searching for hours! Larry jumped the fence and has been AWOL for ages and must be missing home. Let's build a fence around Larry.</p>
-        <div><h3>BORDER</h3></div>
-        <p>Nice! Now Larry can't wander off while we make sure he's okay. The fence is a CSS <strong>border</strong>. By default, a border puts a <strong>3px solid black line</strong> around all four sides of a selected element (Larry on his grass is all one image element).</p>
-        <img alt="Larry with a fence around him">
-        <p>Let's make Larry's fence brown and a little thicker.</p>
-        <img alt="Larry with a stronger, brown fence around him">
-        <p>We can change the border thickness, the style and the colour of the border like this:</p>
-        <p class="code-snippet">border: _px style colour;</p>
-        <p>There are a bunch of border styles like <em>dotted</em> and <em>double</em>, but Larry likes to keep it simple so we'll stick with <em>solid</em>. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">Here's more info about borders</a>. The main thing to remember is that borders separate the <em>inside</em> of an element from what is <em>outside</em> the element.</p>
-        <p>Another good analogy is that the border is like the skin. It is the divide between what is inside of you like your guts and bones, and what is outside like air, and nail polish.</p>  
-        <div><h3>PADDING</h3></div>
-        <p>Honestly, Larry can barely turn around in this tiny paddock, so let's increase the size so that he can graze about. We are going to increase the <em>padding</em>. <em>Padding</em> is a CSS style that creates space around an object inside it's border.</p>
-        <p>We can add <em>padding</em> to just one side of an object, every side of an object, and we can apply different measurements of padding for different sides of our object! (Oh my!) Fortuatly, it's not that complicated and it's obvious to see with Larry's paddock. Take a look.</p>
-        <p>Here's the cheatsheet for writing multiple measurements in CSS that you can apply to padding, margins and more. </p>
-        
+        <p>CSS uses the box model to organise spaces in and around an HTML element like a paragraph or an image or even an entire article! Understanding how margins, borders and padding works is really useful when designing a webpage.</p>
+        <p>I've seen a lot of box model diagrams, but the squares and lines get me all confused! So I thought I'd explain the box model using something a little different...</p>
+        <p>I’ve just bought this amazing print of Mary V by Ladyist and I can’t wait to put it on the wall. Let’s learn about the CSS properties of Margins, Borders and Padding and apply these to hanging this photo.</p>
+        <img src="/img/" alt="CodePen image showing some HTML and CSS and an image of a light-skinned women with auburn hair sitting in a bathroom. She's showing off her armpit hair and looking into the camera.">
+        <h3>Borders</h3>
+          <p>So, the print has arrived and I’m looking at it and thinking <span class="emphasis">‘this is wonderful, I’m so excited to have this in my home’</span>. I’m a forward planner and you’ve already purchased a frame!</p> 
+          <p>For my frame, I use a CSS border. The <span class="element">border</span> property puts a line around all four sides of a selected element. You have the ability to style your border, but by default, this is a solid black line.</p> 
+          <p>I’m a ‘trust the default’ kind of person, so I bought a default frame:</p>
+          <img alt="CodePen image showing same image now with a thin black border">
+          <p>Aww dang it! It’s the right size, but it’s too thin and black isn’t right for this image. It’s okay. We’ll replace it with something better.</p>
+          <p>With CSS borders, you’ve got some options. First, think about what style you want your <span class="element">border</span> to be. This property is suitably named <span class="element">border-style</span>. It could be <span class="element">dashed</span>, <span class="element">double lined</span>, or other styles, but I prefer a classic <span class="element"></span>solid line.</p>
+          <p>Then, you need to think about how thick you want the border line to be. This property is called <span class="element">border-width</span>. I measure this in pixels, but you can check out more info about measurement types and other fun things to do with your border here. **LINK** By default, the <span class="element">border-width</span> property is set to <span class="element">medium</span>.</p> 
+          <p>After you’ve considered your style and thickness you get to choose a colour! Suprise surprise, this property is called <span class="element">border-color!</span> Pick a colour, any colour.</p>
+          <p>I’ve gone for a 10px wide <span class="element">solid</span> pink <span class="element">border</span> but you can be creative and follow your heart. I can write my three properties long ways…</p>
+          <img alt="Same CodePen screen displaying three lines of code relating to border width, style and colour">
+          <p>Or short ways! The trick is to ensure you include the <span class="element">style</span> property value. The other properties can use their default value, but you must specify the <span class="element">style</span> value, otherwise your border will no-show.</p>
+          <img alt="Same CodePen page showing how to write the code more succintly">
+          <p>Great work! We now have a <span class="element">border</span> that suits our image. Remember, a <span class="element">border</span> runs along the sides of your element’s content. This could be text, an image, an entire <span class="element">div</span>, or something else.</p> 
       </article>
       </main>
       <footer>
