@@ -35,8 +35,26 @@
       <article class="blog">
         <div><h2>CSS: MARGINS, BORDERS AND PADDING</h2></div>
         <div><h5>by Bleuette</h5></div>
-        <div><img class="blog-image" src="/img/bus-route.JPG" alt="Black and white photo of a street sign pointing to a bus route"></div>
-        </article>
+        <div><img class="blog-image" src="/img/bearded-man.JPG" alt="Black and white photo of a bearded man who looks holy like White Jesus"></div>
+        <p>CSS uses the box model to organise spaces in and around an HTML element. Understanding how the margins, borders and padding of an element functions is really useful when designing a webpage.</p>
+        <p>I've seen a lot of box model images, but the squares and lines get me all confused! So I thought I'd explain the box model using something a little different...</p>
+        <p>Here we have a very handsome horse standing on some grass. His name is Larry and I've finally found him after searching for hours! Larry jumped the fence and has been AWOL for ages and must be missing home. Let's build a fence around Larry.</p>
+        <div><h3>BORDER</h3></div>
+        <p>Nice! Now Larry can't wander off while we make sure he's okay. The fence is a CSS <strong>border</strong>. By default, a border puts a <strong>3px solid black line</strong> around all four sides of a selected element (Larry on his grass is all one image element).</p>
+        <img alt="Larry with a fence around him">
+        <p>Let's make Larry's fence brown and a little thicker.</p>
+        <img alt="Larry with a stronger, brown fence around him">
+        <p>We can change the border thickness, the style and the colour of the border like this:</p>
+        <p class="code-snippet">border: _px style colour;</p>
+        <p>There are a bunch of border styles like <em>dotted</em> and <em>double</em>, but Larry likes to keep it simple so we'll stick with <em>solid</em>. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">Here's more info about borders</a>. The main thing to remember is that borders separate the <em>inside</em> of an element from what is <em>outside</em> the element.</p>
+        <p>Another good analogy is that the border is like the skin. It is the divide between what is inside of you like your guts and bones, and what is outside like air, and nail polish.</p>  
+        <div><h3>PADDING</h3></div>
+        <p>Honestly, Larry can barely turn around in this tiny paddock, so let's increase the size so that he can graze about. We are going to increase the <em>padding</em>. <em>Padding</em> is a CSS style that creates space around an object inside it's border.</p>
+        <p>We can add <em>padding</em> to each side for example - <span class="code-snippet">padding-left: 50px;</span> or we can add it to <em>all</em> sides using jsut one px measurement like this: <span class="code-snippet">padding: 100px;</span>.</p>
+        <p>If the measurements for the top and bottom are the same, and the measurements for the left and right are the same, we can right it like this: <span class="code-snippet">padding: 50px 20px;</span>. The first number is the top and bottom measurement, and the second number is the left and right measurements.</p>
+        <p>Here's the cheatsheet for writing multiple measurements in CSS that you can apply to padding, margins and more. </p>
+        
+      </article>
       </main>
       <footer>
         <p>Human rights reserved. (Duh.)</p>
