@@ -33,26 +33,65 @@
     </header>
     <main></main>
       <article class="blog">
-        <div><h2>CSS: MARGINS, BORDERS AND PADDING</h2></div>
-        <div><h5>by Bleuette</h5></div>
-        <p>CSS uses the box model to organise spaces in and around an HTML element like a paragraph or an image or even an entire article! Understanding how margins, borders and padding works is really useful when designing a webpage.</p>
-        <p>I've seen a lot of box model diagrams, but the squares and lines get me all confused! So I thought I'd explain the box model using something a little different...</p>
-        <p>I’ve just bought this amazing print of Mary V by Ladyist and I can’t wait to put it on the wall. Let’s learn about the CSS properties of Margins, Borders and Padding and apply these to hanging this photo.</p>
-        <img src="/img/" alt="CodePen image showing some HTML and CSS and an image of a light-skinned women with auburn hair sitting in a bathroom. She's showing off her armpit hair and looking into the camera.">
-        <h3>Borders</h3>
-          <p>So, the print has arrived and I’m looking at it and thinking <span class="emphasis">‘this is wonderful, I’m so excited to have this in my home’</span>. I’m a forward planner and you’ve already purchased a frame!</p> 
-          <p>For my frame, I use a CSS border. The <span class="element">border</span> property puts a line around all four sides of a selected element. You have the ability to style your border, but by default, this is a solid black line.</p> 
-          <p>I’m a ‘trust the default’ kind of person, so I bought a default frame:</p>
-          <img alt="CodePen image showing same image now with a thin black border">
-          <p>Aww dang it! It’s the right size, but it’s too thin and black isn’t right for this image. It’s okay. We’ll replace it with something better.</p>
-          <p>With CSS borders, you’ve got some options. First, think about what style you want your <span class="element">border</span> to be. This property is suitably named <span class="element">border-style</span>. It could be <span class="element">dashed</span>, <span class="element">double lined</span>, or other styles, but I prefer a classic <span class="element"></span>solid line.</p>
-          <p>Then, you need to think about how thick you want the border line to be. This property is called <span class="element">border-width</span>. I measure this in pixels, but you can check out more info about measurement types and other fun things to do with your border here. **LINK** By default, the <span class="element">border-width</span> property is set to <span class="element">medium</span>.</p> 
-          <p>After you’ve considered your style and thickness you get to choose a colour! Suprise surprise, this property is called <span class="element">border-color!</span> Pick a colour, any colour.</p>
-          <p>I’ve gone for a 10px wide <span class="element">solid</span> pink <span class="element">border</span> but you can be creative and follow your heart. I can write my three properties long ways…</p>
-          <img alt="Same CodePen screen displaying three lines of code relating to border width, style and colour">
-          <p>Or short ways! The trick is to ensure you include the <span class="element">style</span> property value. The other properties can use their default value, but you must specify the <span class="element">style</span> value, otherwise your border will no-show.</p>
-          <img alt="Same CodePen page showing how to write the code more succintly">
-          <p>Great work! We now have a <span class="element">border</span> that suits our image. Remember, a <span class="element">border</span> runs along the sides of your element’s content. This could be text, an image, an entire <span class="element">div</span>, or something else.</p> 
+        <section>
+          <div><h2>CSS: MARGINS, BORDERS AND PADDING</h2></div>
+          <div><h5>by Bleuette</h5></div>
+          <p>CSS uses the box model to organise spaces in and around an HTML element like a paragraph or an image or even an entire article! Understanding how <span class="element">margins</span>, <span class="element">borders</span> and <span class="element">padding</span> works is really useful when designing a webpage.</p>
+          <p>I've seen a lot of box model diagrams, but the squares and lines get me all confused! So I thought I'd explain the box model using something a little different...</p>
+          <p>I’ve just bought this amazing print of Mary V by Ladyist and I can’t wait to put it on the wall. Let’s learn about the CSS properties of <span class="element">Margins</span>, <span class="element">Borders</span> and <span class="element">Padding</span> and apply these to hanging this photo.</p>
+          <img class="codepen" src="/img/first.png" alt="CodePen image showing some HTML and CSS and an image of a light-skinned women with auburn hair sitting in a bathroom. She's showing off her armpit hair and looking into the camera.">
+        </section>
+        <section>
+          <h3><span class="blog">Borders</span></h3>
+            <p>So, the print has arrived and I’m looking at it and thinking <span class="emphasis">‘this is wonderful, I’m so excited to have this in my home’</span>. I’m a forward planner and you’ve already purchased a frame!</p>
+            <p>For my frame, I use a CSS <span class="element">border</span>. The <span class="element">border</span> property puts a line around all four sides of a selected element. You have the ability to style your <span class="element">border</span>, but by default, this is a solid black line.</p>
+            <p>I’m a ‘trust the default’ kind of person, so I bought a default frame:</p>
+            <img class="codepen" src="/img/border-1.png" alt="CodePen image showing same image now with a thin black border">
+            <p>Aww dang it! It’s the right size, but it’s too thin and black isn’t right for this image. It’s okay. We’ll replace it with something better.</p>
+            <p>With CSS <span class="element">borders</span>, you’ve got some options. First, think about what style you want your <span class="element">border</span> to be. This property is suitably named border-style. It could be dashed, double lined, or other styles, but I prefer a classic solid line.</p>
+            <p>Then, you need to think about how thick you want the <span class="element">border</span>line to be. This property is called <span class="element">border-width</span>. I measure this in pixels, but you can check out more info about measurement types and other fun things to do with your <span class="element">border</span> <a class="body-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-width">here</a>. By default, the <span class="element">border-width</span> property is set to medium.</p> 
+            <p>After you’ve considered your style and thickness you get to choose a colour! Suprise surprise, this property is called <span class="element">border-color!</span> Pick a colour, any colour.</p>
+            <p>I’ve gone for a 10px wide solid pink border but you can be creative and follow your heart. I can write my three properties long ways…</p>
+            <img class="codepen" src="/img/border-long.png" alt="Same CodePen screen displaying three lines of code relating to border width, style and colour">
+            <p>Or short ways! The trick is to ensure you include the <span class="element">style</span> property value. The other properties can use their default value, but you must specify the <span class="element">style</span> value, otherwise your <span class="element">border</span> will no-show.</p>
+            <img class="codepen" src="/img/border-short.png" alt="Same CodePen page showing how to write the code more succintly">
+            <p>Great work! We now have a <span class="element">border</span> that suits our image. Remember, a <span class="element">border</span> runs along the sides of your element’s content. This could be text, an image, an entire div, or something else.</p>
+        </section>
+        <section>
+            <h3><span class="blog">Padding</span></h3>
+            <p>If we want to add some negative space within the <span class="element">border</span> we can do that with the CSS property <span class="element">padding</span>. <span class="element">Padding</span> creates space <span class="em">around</span> an <span class="element">element</span> on the <span class="em">inside</span> of its <span class="element">border</span>.</p>
+            <p>You can think of <span class="element">padding</span> like the blubber of a seal. The skin of the seal (the <span class="element">border</span>) is on the outside, then you have the useful blubber (<span class="element">padding</span>) to keep that little seal nice and warm, and on the inside you have the <span class="element">element</span> itself - the seal’s organs and stuff. If the seal gains or loses some of the blubber, the skin will stretch or shrink to fit. The <span class="element">border</span> does the same with different levels of <span class="element">padding</span>.</p>
+            <p>Let’s add some <span class="element">padding</span> to make this portrait stand out.</p>
+            <p><span class="element">Padding</span> values are completely customisable. Each side can be the same, or different, or match another one of the sides. You can format this using individual properties (<span class="element">padding-left</span>, <span class="element">padding-right</span> etc. see below) or you can use the <span class="element">padding</span> property on its own and follow the below cheat sheet.</p>
+            <img class="codepen" src="/img/padding-long.png" alt="Same Codepen page showing the long way to write the padding property">
+            <p>See above - now we have 20px of <span class="element">padding</span> on the top and 10px to the right of our element.</p>
+            <img class="codepen" src="/img/margin.png" alt="Same Codepen page showing margins">
+            <p>Nice! Now you can add <span class="element">padding</span> around your objects. Let’s add a suitable amount of <span class="element">padding</span> around this photo and let’s make the object’s background a little more colourful. Our <span class="element">padding</span> is transparent, so the background-color will appear in the negative space made by the <span class="element">padding</span>.</p>
+            <p>Wow, it’s a pastel daydream! It’s time to hang this baby on the wall!</p>
+          </section>
+        <section>
+          <h3><span class="blog">Margins</span></h3>
+            <p>We’ve all come across <span class="element">margins</span> before. Whether you’ve printed something and the printer has cut off some of your work, or you got lashed at by a cat when you broke into its personal bubble. <span class="element">Margins</span> are familiar to us.</p>
+            <p><span class="element">Margins</span> are the spaces between objects. The space between the printable area of the page and the physical edge of the page. The space your hand travels from the safe zone through the danger zone and into the scratched-hand zone. It’s just the same with the CSS <span class="element">margin</span> property.</p>
+            <p>Note: the <span class="element">margin</span> begins at the outer edge of the <span class="element">border</span>, and goes outwards for as far as you tell it to.</p>
+            <p>This property is a useful design tool! You can nicely space things out on your page so that nothing feels cramped or awkward. </p>
+            <p>Writing the measurements for <span class="element">margins</span> follows the same rules as for <span class="element">padding</span> You can write each side individually, or use the cheat sheet to do a snazzy and speedy one-liner. </p>
+            <p>There’s something funny about <span class="element">margins</span> though… Sometimes when they meet on the vertical (<span class="element">margin-top</span> and <span class="element">margin-bottom</span>), the <span class="element">margin</span> with the larger value is the <span class="element">margin</span> that rules the space between! That’s another post though, and MDN has a great one. <a class="body-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing">Here’s the link</a>. Thanks MDN!</p>
+            <p>I’ve added another photo to my new photo wall so that we can look at how the <span class="element">margin</span> property works. You can only see the <span class="element">border</span> and <span class="element">padding</span> of the second image, but it serves to show how <span class="element">margins</span> work. Make sure you read the code notes!</p>
+            <img class="codepen" src="/img/margin.png" alt="Same CodePen showing how margins push the object away from other items.">
+        </section>
+        <section class="tldr">
+          <h3><span class="blog">tl;dr:</span></h3>
+          <ul>
+              <li><span class="element">borders</span> are lines that contain an object. You can customise the line style, the colour and the line width. It’s like the seal’s skin.</li>
+              <li><span class="element">padding</span> sits inside the <span class="element">border</span> and outside the element contents. It’s like the blubber in the seal.</li>
+              <li><span class="element">margins</span> start outside the <span class="element">border</span> and put the element away from other objects. On land, a seal has no bottom <span class="element">margin</span> because she directly touches the ice, but she might have 2m on each side (left and right) and 3m on the top if she’s sheltering in a rocky cave. Do seals do that? In the water, a seal might have 10m of <span class="element">margin</span> between her and the ice above, lots of <span class="element">margin</span> either side and - uh oh - a 5m <span class="element">margin</span> beneath her and shrinking - there’s a hungry looking orca eyeing her up from below.</li>
+            </ul>
+        </section>
+          <section class="outro">
+            <p> Well, thanks for hanging out with me while I prepare and place my new photo on my wall (and talk about seals facing impending doom). I hope you’ve gained some knowledge about how the CSS <span class="element">padding</span>, <span class="element">border</span> and <span class="element">margin</span> properties work.</p>
+            <p>I’d love to hear your thoughts - let’s connect on Discord, GitHub or LinkedIn!</p>
+          </section>
       </article>
       </main>
       <footer>
