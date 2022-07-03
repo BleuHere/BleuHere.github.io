@@ -260,6 +260,10 @@ ul {
   list-style-type: "→ "; 
 }
 
+ol {
+  font-size: 22px;
+}
+
 /* This is where media queries live */
 
 
