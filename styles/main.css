@@ -148,7 +148,7 @@ h3 a {
   font-weight: 800;
   margin-bottom: 10px;
 }
-
+eda
 h3 a:hover {
   color: hotpink;
 }
@@ -160,20 +160,16 @@ h3 a:hover {
   margin-bottom: 10px;
 }
 
-#bus-pic {
+.pink-left {
   margin: auto 100px;
   box-shadow: -100px 0px hotpink;
 }
 
-#light-pic {
+.pink-right {
   margin: auto;
   box-shadow: 100px 0px hotpink;
 }
 
-#beard-pic {
-  margin: auto 100px;
-  box-shadow: -100px 0px hotpink;
-}
 
 footer {
   margin: auto;
@@ -281,7 +277,7 @@ ol {
     font-size: 16px;
   }
 
-  #eda-link {
+  .body-link {
     font-size: 14px;
   }
 
@@ -386,7 +382,7 @@ ol {
     font-size: 18px;
   }
 
-  #eda-link {
+.body-link {
     font-size: 16px;
   }
 
