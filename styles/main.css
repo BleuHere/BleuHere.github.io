@@ -268,9 +268,13 @@ ol {
 
 
 /* for phone screens*/
-@media all and (max-width: 400px) {
-  * p {
+@media (max-width: 320px) {
+  p {
     font-size: 14px;
+    width: 300px;
+  }
+  nav .menu-items{
+    width: 120px;
   }
 
   .menu-items a {
@@ -308,29 +312,49 @@ ol {
 
   section {
     margin: auto;
-    width: 250px;
+    width: 300px;
     margin-bottom: 50px
+  }
+
+  h3 {
+    width: 300px;
+  }
+
+  h4 {
+    width: 300px;
   }
 
   article {
     margin: auto;
-    width: 50%;
+    width: 300px;
     height: auto;
     overflow: hidden;
     border-bottom: solid 1px;
   }
 
   .index article div {
-    width: 50%;
-    height: 50%;
+    width: 300px;
+    height: auto;
     overflow: hidden;
   }
 
   .blog-image {
-    width: 100%;
-    height: auto;
-    margin: auto;
+    box-sizing: border-box;
+    width: 300px;
+    margin: auto; 
     margin-bottom: 10px;
+    border: solid hotpink;
+    overflow: hidden;
+  } 
+
+.image-holder {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+  li {
+    width: 250px;
+    font-size: 18px;
   }
 
   #bus-pic {
