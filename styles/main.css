@@ -94,9 +94,15 @@ i:hover {
 }
 
 section {
-  margin: auto;
+  margin: 0 auto 50px ;
   width: 800px;
-  margin-bottom: 50px
+
+}
+
+main.index {
+  border-top: 1px solid black;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 #portrait {
@@ -121,25 +127,17 @@ h2 {
 
 .index div h2 {
   margin: auto;
-  width: 600px;
   text-align: left;
-  margin: 30px auto 30px;
+  margin: 20px auto 30px;
   padding: 25px 0px 0px 0px;
-  border-top: 1px solid black;
 }
 
 .index article {
   margin: auto auto 40px;
-  width: 600px;
+  max-width: 600px;
   height: auto;
   overflow: hidden;
   border-bottom: solid 1px;
-}
-
-.index article div {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
 }
 
 h3 a {
@@ -148,26 +146,24 @@ h3 a {
   font-weight: 800;
   margin-bottom: 10px;
 }
-eda
+
 h3 a:hover {
   color: hotpink;
 }
 
 .blog-image {
-  width: 500px;
+  max-width: 100%;
   height: auto;
   margin: auto;
   margin-bottom: 10px;
 }
 
 .pink-left {
-  margin: auto 100px;
-  box-shadow: -100px 0px hotpink;
+  border-left: 100px solid hotpink;
 }
 
 .pink-right {
-  margin: auto;
-  box-shadow: 100px 0px hotpink;
+  border-right: 100px solid hotpink;
 }
 
 
@@ -181,9 +177,9 @@ footer {
 /* Blog Page Styling */
 
 .blog div {
-  width: 800px;
+  max-width: 100%;
   margin: auto;
-  padding: 0px 0px 25px;
+  padding: 0px 5px 25px;
 }
 .blog h2 {
   font-family: 'Gentium Book Plus', serif;
@@ -224,13 +220,13 @@ h4 {
   margin: 8px 0px;
 }
 
-.blog .blog-image {
+.blog-image {
   width: 100%;
   padding: 0px;
   margin: 0px;
 }
 
-.blog em {
+.blog .em {
   font-size: 18px;
   font-family: 'Cormorant Garamond', serif;
 }
@@ -264,10 +260,10 @@ ol {
 
 
 /* for phone screens*/
+
 @media (max-width: 320px) {
   p {
-    font-size: 14px;
-    width: 300px;
+    font-size: 10px;
   }
   nav .menu-items{
     width: 120px;
@@ -278,7 +274,7 @@ ol {
   }
 
   .body-link {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .menu {
@@ -286,7 +282,7 @@ ol {
   float: left;
   padding: 0px;
   position: absolute;
-  top: 80px;
+  top: 80px;  
   left: 0px;
   }
 
@@ -305,7 +301,7 @@ ol {
     height: auto;
     box-shadow: 40px 0px hotpink;
   }
-
+/*
   section {
     margin: auto;
     width: 300px;
@@ -334,47 +330,33 @@ ol {
     overflow: hidden;
   }
 
-  .blog-image {
-    box-sizing: border-box;
-    width: 300px;
-    margin: auto; 
-    margin-bottom: 10px;
-    border: solid hotpink;
-    overflow: hidden;
-  } 
-
 .image-holder {
   width: 300px;
   height: auto;
-  overflow: hidden;
+  overflow: hidden; */
 }
   li {
-    width: 250px;
-    font-size: 18px;
+    max-width: 100%;
+    font-size: 10px;
   }
-
-  #bus-pic {
-    margin: auto 50px;
-    box-shadow: -50px 0px hotpink;
-  }
-  
-  #light-pic {
-    margin: auto;
-    box-shadow: 50px 0px hotpink;
-  }
-  
-  #beard-pic {
-    margin: auto 50px;
-    box-shadow: -50px 0px hotpink;
-
-  }
+.em {
+  font-size: 10px;
 }
-
+}
 /*for tablet screens*/
 
 @media all and (max-width:768px) {
   
   * p {
+    font-size: 16px;
+  }
+
+  .em {
+    font-size: 16px;
+  }
+
+  li {
+    max-width: 100%;
     font-size: 16px;
   }
 
@@ -413,52 +395,23 @@ ol {
 
   section {
     margin: auto;
-    width: 400px;
+    max-width: 100%;
     margin-bottom: 50px
   }
 
-  article {
-    margin: auto;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+  .index article {
+    max-width: 100%;
     border-bottom: solid 1px;
   }
 
-  .index article div {
-    width: 80%;
-    height: auto;
-    overflow: hidden;
-  }
-
   .blog-image {
-    width: 80%;
-    height: auto;
+    max-width: 100%;
     margin: auto;
     margin-bottom: 10px;
-  }
-
-  #bus-pic {
-    margin: auto 70px;
-    box-shadow: -70px 0px hotpink;
-  }
-  
-  #light-pic {
-    margin: auto;
-    box-shadow: 70px 0px hotpink;
-  }
-  
-  #beard-pic {
-    margin: auto 70px;
-    box-shadow: -70px 0px hotpink;
   }
 }
 
 /* computer screen */
 @media (max-width: 1200px) {
 
-  header {
-    width: 80%;
-    margin: auto;
-  }
 }
