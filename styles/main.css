@@ -3,7 +3,7 @@
   font-family: 'Cormorant Garamond', serif;
 }
 
-* p {
+p {
   font-weight: 500;
   font-family: 'Cormorant Garamond', serif;
   font-size: 26px;
@@ -95,8 +95,31 @@ i:hover {
 
 section {
   margin: 0 auto 50px ;
-  width: 800px;
+  width: 100%; 
+}
 
+#mce-responses {
+  margin: 10px auto;
+}
+
+button {
+  background-color: hotpink;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 10px;
+
+}
+
+input {
+  font-size: 20px;
+}
+
+label {
+  font-size: 26px;
+}
+
+div.buttons {
+  margin: auto;
 }
 
 main.index {
@@ -117,7 +140,22 @@ main.index {
   font-size: 18px;
 }
 
+.random-link {
+  text-decoration: none;
+  color: black;
+}
+
+.random-link:hover {
+  color: black;
+  font-weight: 100; 
+  text-decoration: 1px underline black;
+}
+
 h2 {
+  font-size: 26px;
+}
+
+ol {
   font-size: 26px;
 }
 
@@ -204,7 +242,7 @@ footer {
 
 h4 {
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 24px;
   padding: 0px;
   margin: 0px 0px 10px 0px;
 }
@@ -215,10 +253,10 @@ h4 {
   font-size: 16px;
 }
 
-.blog p {
+/*.blog p {
   font-size: 22px;
   margin: 8px 0px;
-}
+}*/
 
 .blog-image {
   width: 100%;
@@ -274,7 +312,7 @@ ol {
   }
 
   .body-link {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .menu {
@@ -302,11 +340,7 @@ ol {
     box-shadow: 40px 0px hotpink;
   }
 /*
-  section {
-    margin: auto;
-    width: 300px;
-    margin-bottom: 50px
-  }
+
 
   h3 {
     width: 300px;
@@ -334,30 +368,39 @@ ol {
   width: 300px;
   height: auto;
   overflow: hidden; */
-}
+
   li {
     max-width: 100%;
-    font-size: 10px;
+    font-size: 15px;
   }
 .em {
-  font-size: 10px;
+  font-size: 15px;
 }
+
+section {
+  margin: auto;
+  max-width: 100%;
+  margin-bottom: 50px;
+  padding: 0 5px;
 }
+
+}
+
 /*for tablet screens*/
 
 @media all and (max-width:768px) {
   
-  * p {
-    font-size: 16px;
+  p {
+    font-size: 18px;
   }
 
   .em {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   li {
     max-width: 100%;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .menu-items a {
@@ -365,7 +408,11 @@ ol {
   }
 
 .body-link {
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  .em {
+    font-size: 18px;
   }
 
   .menu {
@@ -396,7 +443,8 @@ ol {
   section {
     margin: auto;
     max-width: 100%;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    padding: 0 30px;
   }
 
   .index article {
@@ -412,6 +460,9 @@ ol {
 }
 
 /* computer screen */
-@media (max-width: 1200px) {
-
+@media (min-width: 1000px) {
+  section {
+    padding: 0 150px;
+  
+  }
 }
