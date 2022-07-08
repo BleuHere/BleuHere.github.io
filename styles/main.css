@@ -283,13 +283,23 @@ h4 {
 }
 
 .element {
-  display: inline-block;
   font-family: monospace;
-  font-size: 100%; 
+  font-size: 85%; 
   background-color: rgb(247, 186, 216);
   border-radius: 3px;
   padding-left: 5px;
   padding-right: 5px;
+  margin: 0px;
+}
+
+.no-spacing {
+  margin: 0px;
+  padding: 0px;
+}
+
+.indent {
+  text-indent: 40px;
+
 }
 
 ul {
