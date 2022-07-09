@@ -132,10 +132,10 @@ main.index {
   max-width: 1000px;
 }
 
-#portrait {
+/* #portrait { 
   max-width: 100%;
-  border-right: 200px solid hotpink;
-  }
+  border-right: solid hotpink;
+  } */
 
 .body-link {
   text-decoration: none;
