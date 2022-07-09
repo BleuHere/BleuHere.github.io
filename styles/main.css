@@ -138,9 +138,8 @@ main.index {
   } */
 
 .body-link {
-  text-decoration: none;
+  text-decoration: underline hotpink;
   color: black;
-  font-size: 22px;
 }
 
 .random-link {
