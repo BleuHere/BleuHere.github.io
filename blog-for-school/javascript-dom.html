@@ -46,11 +46,14 @@
       <div>
         <h5>by Bleuette - 08/07/22</h5>
       </div>
-      <div><img class="blog-image" src="/img/sillhouette.jpg" alt="black and white sillhouette of a person taking a photo. The background is gooey like when the coffee runs into the milk of an iced-coffee">
+      <div><img class="blog-image" src="/img/sillhouette.jpg"
+          alt="black and white sillhouette of a person taking a photo. The background is gooey like when the coffee runs into the milk of an iced-coffee">
       </div>
     </section>
     <section>
-      <p>Even though the title of this post sounds like a 90s grungy, synthy girl band, this blog is not a tribute page. This week I delve into the DOM (not hot) and JavaScript (not related to Java). Well, let's get straight into it, shall we? </p>
+      <p>Even though the title of this post sounds like a 90s grungy, synthy girl band, this blog is not a tribute page.
+        This week I delve into the DOM (not hot) and JavaScript (not related to Java). Well, let's get straight into it,
+        shall we? </p>
     </section>
     <section>
       <h3><span>Let’s talk about JavaScript, HTML and CSS:</span></h3>
@@ -61,7 +64,8 @@
     </section>
     <section>
       <h3><span>What about the DOM?</span></h3>
-      <p>The DOM is how the body is organised. The head is at the top, then the shoulders, knees and toes. Javascript can access all the HTML bones and body parts but also what is inside of the
+      <p>The DOM is how the body is organised. The head is at the top, then the shoulders, knees and toes. Javascript
+        can access all the HTML bones and body parts but also what is inside of the
         bones because anatomy, like the DOM, is made up of many smaller, hierarchical elements. </p>
       <p>Each bone is made up of many cells. Each cell is made up of many atoms. In the same way, the DOM splits the
         body into many parts and sub parts and sub-sub parts, each having a relationship with the element above it, next
@@ -73,53 +77,72 @@
       <p>The instructions that the brain gives to the body are called functions. Like a written language, functions
         follow a control flow - this is the order that the brain reads and actions these instructions. Like books
         written in English, the JS brain reads from left to right, top to bottom.</p>
-        <p>Here's an example of a list I wrote for JS when I was sick and needed a hottie.</p>
-        <img class="blog-image fifty-percent-image" src="/img/hottie-ins.jpg" alt="very detailed list on how to fill a hottie">
+      <p>Here's an example of a list I wrote for JS when I was sick and needed a hottie.</p>
+      <img class="blog-image fifty-percent-image" src="/img/hottie-ins.jpg"
+        alt="very detailed list on how to fill a hottie">
     </section>
     <section>
       <h3><span>Interacting with the DOM, Arrays and Objects</span></h3>
-<p>The DOM allows Javascript to read and manipulate our HTML and CSS and includes the user in the fun by reacting to their actions. </p>
-<p>JavaScript can tell the body what to do when it (for example) hears words. Javascript might tell the body to store those words somewhere or to yell them very loudly back at the person who gave the words to the body. </p>
-<p>If the body is tapped on the shoulder, Javascript can tell the body to react by (for example) falling down, or starting to dance.</p>
-<p>Our webpage can react because Javascript has told the body how to behave when certain events happen (i.e. being spoken to or being tapped on the shoulder). We can use Javascript to tell the body what to do by writing instructions on exactly what to sense for and in what location in the body (the DOM), and what to do when that event occurs:</p>
-<p>When the ears sense word sounds, yell them very loudly from the mouth. </p>
-<p>When the shoulder receives a tap, dance wildly and change your hair colour to blue and nail polish colour to rainbow.</p>
+      <p>The DOM allows Javascript to read and manipulate our HTML and CSS and includes the user in the fun by reacting
+        to their actions. </p>
+      <p>JavaScript can tell the body what to do when it (for example) hears words. Javascript might tell the body to
+        store those words somewhere or to yell them very loudly back at the person who gave the words to the body. </p>
+      <p>If the body is tapped on the shoulder, Javascript can tell the body to react by (for example) falling down, or
+        starting to dance.</p>
+      <p>Our webpage can react because Javascript has told the body how to behave when certain events happen (i.e. being
+        spoken to or being tapped on the shoulder). We can use Javascript to tell the body what to do by writing
+        instructions on exactly what to sense for and in what location in the body (the DOM), and what to do when that
+        event occurs:</p>
+      <p>When the ears sense word sounds, yell them very loudly from the mouth. </p>
+      <p>When the shoulder receives a tap, dance wildly and change your hair colour to blue and nail polish colour to
+        rainbow.</p>
     </section>
     <section>
       <h3><span>Arrays and Objects: </span></h3>
-<p>Arrays and Objects are cool ways to store data in JS. </p>
-<p>Arrays are lists of things (words, numbers, etc.) separated by commas and stored inside square brackets:</p>
-<p><span class="element">let pinkThingsArray = [ 'flamingoes', 'raspberries', 'human tongues' ]</span></p>
-<p>Objects are also used to store things, but they store more than just an item, it can store details about an item. Information about the object is stored inside curly brackets like so:</p>
+      <p>Arrays and Objects are cool ways to store data in JS. </p>
+      <p>Arrays are lists of things (words, numbers, etc.) separated by commas and stored inside square brackets:</p>
+      <p><span class="element">let pinkThingsArray = [ 'flamingoes', 'raspberries', 'human tongues' ]</span></p>
+      <p>Objects are also used to store things, but they store more than just an item, it can store details about an
+        item. Information about the object is stored inside curly brackets like so:</p>
 
-<p class="no-spacing"><span class="element">let bestBuddy = {   // bestBuddy is the name of our object</span></p>
-  <p class="no-spacing indent"><span class="element">name: "Alonso",   // this is how we format info about the object</span></p>
-  <p class="no-spacing indent"><span class="element">type: "miniature poodle",</span></p>
-  <p class="no-spacing indent"><span class="element">age: 6,</span></p>
-  <p class="no-spacing indent"><span class="element">cute: true,</span></p> 
-  <p class="no-spacing indent"><span class="element">favouriteToy: "kong"</span></p>
-<p class="no-spacing"><span class="element">};</span></p>
-<p>To get information out of an array, use the name of the array variable (pinkThingsArrray) and add a square bracket to indicate which item in the list we want to see. </p>
-<p>What do you think will show on the screen if we take a peek at pinkThingsArray[I]? Click 'Result' to find out!</p>
-<p class="codepen" data-height="314" data-theme-id="dark" data-default-tab="js" data-slug-hash="rNdeLaB" data-editable="true" data-user="bleuhere" style="height: 314px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/bleuhere/pen/rNdeLaB">
-  Untitled</a> by BleuHere (<a href="https://codepen.io/bleuhere">@bleuhere</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-<p>Huh! It didn’t print the Ist item, it printed the 2nd! Why is that? In Javascript, arrays start counting from O. So ‘flamingoes’ is actually the Oth item in the array, which is why we see ‘raspberries’ print when we ask to see the [I] item in this list. </p>
-<p>With Objects, it’s a little different. To see the value that is linked to a particular key we do this: </p>
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="qBoZZeZ" data-editable="true" data-user="bleuhere" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/bleuhere/pen/qBoZZeZ">
-  bestBuddy</a> by BleuHere (<a href="https://codepen.io/bleuhere">@bleuhere</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-<p>Try changing the section after the dot to see if you can access Alonso’s favourite toy.</p>
+      <p class="no-spacing"><span class="element">let bestBuddy = { // bestBuddy is the name of our object</span></p>
+      <p class="no-spacing indent"><span class="element">name: "Alonso", // this is how we format info about the
+          object</span></p>
+      <p class="no-spacing indent"><span class="element">type: "miniature poodle",</span></p>
+      <p class="no-spacing indent"><span class="element">age: 6,</span></p>
+      <p class="no-spacing indent"><span class="element">cute: true,</span></p>
+      <p class="no-spacing indent"><span class="element">favouriteToy: "kong"</span></p>
+      <p class="no-spacing"><span class="element">};</span></p>
+      <p>To get information out of an array, use the name of the array variable (pinkThingsArrray) and add a square
+        bracket to indicate which item in the list we want to see. </p>
+      <p>What do you think will show on the screen if we take a peek at pinkThingsArray[I]? Click 'Result' to find out!
+      </p>
+      <p class="codepen" data-height="314" data-theme-id="dark" data-default-tab="js" data-slug-hash="rNdeLaB"
+        data-editable="true" data-user="bleuhere"
+        style="height: 314px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/bleuhere/pen/rNdeLaB">
+            Untitled</a> by BleuHere (<a href="https://codepen.io/bleuhere">@bleuhere</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      <p>Huh! It didn’t print the Ist item, it printed the 2nd! Why is that? In Javascript, arrays start counting from
+        O. So ‘flamingoes’ is actually the Oth item in the array, which is why we see ‘raspberries’ print when we ask to
+        see the [I] item in this list. </p>
+      <p>With Objects, it’s a little different. To see the value that is linked to a particular key we do this: </p>
+      <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="qBoZZeZ"
+        data-editable="true" data-user="bleuhere"
+        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/bleuhere/pen/qBoZZeZ">
+            bestBuddy</a> by BleuHere (<a href="https://codepen.io/bleuhere">@bleuhere</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      <p>Try changing the section after the dot to see if you can access Alonso’s favourite toy.</p>
     </section>
     <section>
       <h3><span>fin.</span></h3>
-      <p>Well, that's been a huge exploration into the body and into my brain! Thanks for reading, and see you again soon. Don't forget to connect or give feedback. Let's chat!</p>
+      <p>Well, that's been a huge exploration into the body and into my brain! Thanks for reading, and see you again
+        soon. Don't forget to connect or give feedback. Let's chat!</p>
     </section>
   </article>
   </main>
