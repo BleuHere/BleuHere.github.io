@@ -2,100 +2,319 @@
 <html>
   <head>
     <title>Bleuette Hille</title>
-    <link rel="shortcut icon" type="image/png" href="/img/breast.png"/>
-    <link rel="stylesheet" href="/styles/main.css" type="text/css">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/img/breast.png" />
+    <link rel="stylesheet" href="/styles/main.css" type="text/css" />
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <h1><a href="https://bleuhere.github.io">BLEU</a></h1>
-       <nav>
+      <nav>
         <span class="menu">
-          <ul >
-            <li class="menu-items"><a href="https://bleuhere.github.io/blog-for-school/blog-for-school.html">EDA Blog</a></li>
-            <li class="menu-items"><a href="https://bleuhere.github.io/blog-for-you/posts-for-you.html">Personal Blog</a></li>
+          <ul>
+            <li class="menu-items">
+              <a
+                href="https://bleuhere.github.io/blog-for-school/blog-for-school.html"
+                >EDA Blog</a
+              >
+            </li>
+            <li class="menu-items">
+              <a
+                href="https://bleuhere.github.io/blog-for-you/posts-for-you.html"
+                >Personal Blog</a
+              >
+            </li>
           </ul>
         </span>
         <div>
           <ul class="icon-list">
-            <li><a href="https://github.com/BleuHere"><i class="fa fa-github" style="font-size:36px"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/bleuette-hille-567873224/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></li>
+            <li>
+              <a href="https://github.com/BleuHere"
+                ><i class="fa fa-github" style="font-size: 36px"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/bleuette-hille-567873224/"
+                ><i class="fa fa-linkedin-square" style="font-size: 36px"></i
+              ></a>
+            </li>
           </ul>
         </div>
-    </nav>
+      </nav>
     </header>
     <main>
       <article class="blog">
         <section>
           <div><h2>PROBLEM SOLVING</h2></div>
           <div><h5>by Bleuette - 14/07/22</h5></div>
-          <img class="blog-image" src="/img/fireworks.JPG" alt="A black and white photo of fireworks against a night sky.">
+          <img
+            class="blog-image"
+            src="/img/fireworks.JPG"
+            alt="A black and white photo of fireworks against a night sky."
+          />
         </section>
         <section>
-          <p>This week's tech post is all about solving problems and reflecting on the learning from two different problem solving experiences - a time when I got stuck, and a time when a solution came easily.</p>
+          <p>
+            This week's tech post is all about solving problems and reflecting
+            on the learning from two different problem solving experiences - a
+            time when I got stuck, and a time when a solution came easily.
+          </p>
         </section>
         <section>
           <h3><span>Blockage</span></h3>
-          <p>Once upon a javascript array there lived a method called <span class="element">.map()</span>. </p>
-          <p><span class="element">.map()</span> is something that took me a very long time to get my head around, largely due to the callback function that it takes. However, after spending time doing CodeWars katas and focusing on using array <strong>dot operator methods</strong> instead of <strong>for loops</strong> I felt that <span class="element">.map()</span> and I could be friends. </p>
-          <p>So, when I encountered this kata, I thought ‘Cool cool, they want me to use <span class="element">.map()</span>, simple, I can do this.’ </p>
-          <p>So, I used a problem solving technique that I had read about called the Four Step Problem Solving Method. <a href="https://www.freecodecamp.org/news/how-to-solve-coding-problems/" class="body-link">Here’s a link</a> to a really good explanation of the method.</p>
-          <p>Here’s step one and two - Understand the Problem and Devise a Plan: </p>
-          <img class="blog-image" src="/img/map-plan.png" alt="A screenshot showing my plan to tackle the .map() function kata"><p>I thought I had a nice simple solution to this issue and started step three: Solve the Problem.</p>
-          <img class="blog-image" src="/img/map-uppercase-error.png" alt="A screenshot showing an error message showing I was only returning one letter per word.">
-          <p>Uh oh… I was capitalising the first letter of each word, but I was only returning that letter! I hummed and harred and felt myself getting frustrated. I had identified the problem, but I didn’t know how to solve it. </p>
-          <p>Somewhere in my brain I knew I could get part of the string kind of like this:</p>
-          <img class="blog-image" src="/img/map-cundefined.png" alt="A screenshot showing an error message saying \'cundefined\'">
-          <p>But for the life of me I couldn’t remember how it was that I could do that. So I took to Google. Google took me to <span class="element">.substring()</span>, and after a quick frustrated peek at the hints I knew I was on the right track. (Wow, it was really hard for me to admit that I looked at the hints. “Shouldn’t I be independent and self-sufficient?” “Shh negative voice! Can’t you see we’re trying to learn here? Shove off with your bad vibes.”)</p>
-          <p>Okay cool, with some help from Google and the hints folder, I was able to solve this kata. (Woo!)</p>
-          <img class="blog-image" src="/img/map-pass.png" alt="A screenshot showing that the tests had passed! Woo!"><p>My main enemy was that annoying negative voice that reared their ugly head. The technical block itself caused frustration to rise in my body, and distract me from seeing the problem as a learning experience, and instead tried to trick me into thinking that this kata was a test. If I could solve it by myself, then I was ‘good’. If I needed help, then I was ‘bad’. </p>
-          <p>I practiced a lot of self compassion during this time, and found that because I’ve been doing mindfulness practice and increasing my self awareness through the Core curriculum tasks that I was able to kindly remove that limpet voice from my mind. Having kicked limpet voice to the curb, I could focus on kindness towards myself and focus on solving the problem. </p>
-          <p>I learned that the technical block is not the problem. It’s how I respond to the block that creates either a problem or a learning experience. With time, I think I will be able to say ‘huh, I’m stuck, what can I learn,’ instead of saying, ‘ugh, I’m stuck, how will I survive?’.</p>
+          <p>
+            Once upon a javascript array there lived a method called
+            <span class="element">.map()</span>.
+          </p>
+          <p>
+            <span class="element">.map()</span> is something that took me a very
+            long time to get my head around, largely due to the callback
+            function that it takes. However, after spending time doing CodeWars
+            katas and focusing on using array
+            <strong>dot operator methods</strong> instead of
+            <strong>for loops</strong> I felt that
+            <span class="element">.map()</span> and I could be friends.
+          </p>
+          <p>
+            So, when I encountered this kata, I thought ‘Cool cool, they want me
+            to use <span class="element">.map()</span>, simple, I can do this.’
+          </p>
+          <p>
+            So, I used a problem solving technique that I had read about called
+            the Four Step Problem Solving Method.
+            <a
+              href="https://www.freecodecamp.org/news/how-to-solve-coding-problems/"
+              class="body-link"
+              >Here’s a link</a
+            >
+            to a really good explanation of the method.
+          </p>
+          <p>
+            Here’s step one and two - Understand the Problem and Devise a Plan:
+          </p>
+          <img
+            class="blog-image"
+            src="/img/map-plan.png"
+            alt="A screenshot showing my plan to tackle the .map() function kata"
+          />
+          <p>
+            I thought I had a nice simple solution to this issue and started
+            step three: Solve the Problem.
+          </p>
+          <img
+            class="blog-image"
+            src="/img/map-uppercase-error.png"
+            alt="A screenshot showing an error message showing I was only returning one letter per word."
+          />
+          <p>
+            Uh oh… I was capitalising the first letter of each word, but I was
+            only returning that letter! I hummed and harred and felt myself
+            getting frustrated. I had identified the problem, but I didn’t know
+            how to solve it.
+          </p>
+          <p>
+            Somewhere in my brain I knew I could get part of the string kind of
+            like this:
+          </p>
+          <img
+            class="blog-image"
+            src="/img/map-cundefined.png"
+            alt="A screenshot showing an error message saying \'cundefined\'"
+          />
+          <p>
+            But for the life of me I couldn’t remember how it was that I could
+            do that. So I took to Google. Google took me to
+            <span class="element">.substring()</span>, and after a quick
+            frustrated peek at the hints I knew I was on the right track. (Wow,
+            it was really hard for me to admit that I looked at the hints.
+            “Shouldn’t I be independent and self-sufficient?” “Shh negative
+            voice! Can’t you see we’re trying to learn here? Shove off with your
+            bad vibes.”)
+          </p>
+          <p>
+            Okay cool, with some help from Google and the hints folder, I was
+            able to solve this kata. (Woo!)
+          </p>
+          <img
+            class="blog-image"
+            src="/img/map-pass.png"
+            alt="A screenshot showing that the tests had passed! Woo!"
+          />
+          <p>
+            My main enemy was that annoying negative voice that reared their
+            ugly head. The technical block itself caused frustration to rise in
+            my body, and distract me from seeing the problem as a learning
+            experience, and instead tried to trick me into thinking that this
+            kata was a test. If I could solve it by myself, then I was ‘good’.
+            If I needed help, then I was ‘bad’.
+          </p>
+          <p>
+            I practiced a lot of self compassion during this time, and found
+            that because I’ve been doing mindfulness practice and increasing my
+            self awareness through the Core curriculum tasks that I was able to
+            kindly remove that limpet voice from my mind. Having kicked limpet
+            voice to the curb, I could focus on kindness towards myself and
+            focus on solving the problem.
+          </p>
+          <p>
+            I learned that the technical block is not the problem. It’s how I
+            respond to the block that creates either a problem or a learning
+            experience. With time, I think I will be able to say ‘huh, I’m
+            stuck, what can I learn,’ instead of saying, ‘ugh, I’m stuck, how
+            will I survive?’.
+          </p>
         </section>
         <section>
           <h3><span>Elegance</span></h3>
-          <p>FizzBuzz was hanging out in a <a href="https://replit.com/@BleuHere" class="body-link">Repl.it</a> one day, and I came across this issue and thought ‘yus, time to whip out a conditional statement.’</p>
-          <p>I used the same understanding and planning technique as above like so:</p>
-          <img class="blog-image" src="/img/fizzbuzz-plan.png" alt="A screenshot showing my plan to tackle the FixxBuzz kata.">
-          <p>I wrote out the function, however I forgot that I would need to put the divisible by both 3 and 5 condition first - otherwise, calling fizzbuzz(15) (for example) would stop running at the divisible by 3 condition and would return Fizz and not FizzBuzz! So how to solve this? I thought about writing the conditions like so: </p>
-          <p><span class="element">if (num % 3 === 0 && num % 5  !== 0) </span></p>
-          <p><span class="element">if (num % 5 === 0 && num % 3 !== 0)</span></p>
-          <p>But I opted for Occam’s Razor and simply put the most specific condition first. Here is the final solution with some logged examples: </p>
-          <img class="blog-image" src="/img/fiizbuzz-result.png" alt="A screenshot with the finished FizzBuzz function working">
-          <p>I felt a sense of achievement and pride as I worked on this kata. For me, it was a testament to the previous kata I have done on CodeWars and the previous difficult learning experiences (like the <span class="element">.map() </span>example above). I did feel proud, but my ego didn’t inflate too much, because I understood that I could solve kata this simply due to learning, planning and practice. </p>
-          <p>I learnt that things get simpler with comprehensive understanding. And comprehensive understanding comes from seeking to learn, making mistakes and slowly grasping at concepts until they are easy to reach. </p>
-          <p>Writing the blog post has made me recognise how having a growth mindset and understanding neuroplasticity is crucial when learning to code. It’s so important to remind myself that: ‘yes I can learn this! Look at these two experiences and see how similar they are. You’re simply more familiar with one concept than another, and soon you’ll be mapping and substringing yourself into a wonderful mess’.</p>
+          <p>
+            FizzBuzz was hanging out in a
+            <a href="https://replit.com/@BleuHere" class="body-link">Repl.it</a>
+            one day, and I came across this issue and thought ‘yus, time to whip
+            out a conditional statement.’
+          </p>
+          <p>
+            I used the same understanding and planning technique as above like
+            so:
+          </p>
+          <img
+            class="blog-image"
+            src="/img/fizzbuzz-plan.png"
+            alt="A screenshot showing my plan to tackle the FixxBuzz kata."
+          />
+          <p>
+            I wrote out the function, however I forgot that I would need to put
+            the divisible by both 3 and 5 condition first - otherwise, calling
+            fizzbuzz(15) (for example) would stop running at the divisible by 3
+            condition and would return Fizz and not FizzBuzz! So how to solve
+            this? I thought about writing the conditions like so:
+          </p>
+          <p>
+            <span class="element">if (num % 3 === 0 && num % 5 !== 0) </span>
+          </p>
+          <p>
+            <span class="element">if (num % 5 === 0 && num % 3 !== 0)</span>
+          </p>
+          <p>
+            But I opted for Occam’s Razor and simply put the most specific
+            condition first. Here is the final solution with some logged
+            examples:
+          </p>
+          <img
+            class="blog-image"
+            src="/img/fiizbuzz-result.png"
+            alt="A screenshot with the finished FizzBuzz function working"
+          />
+          <p>
+            I felt a sense of achievement and pride as I worked on this kata.
+            For me, it was a testament to the previous kata I have done on
+            CodeWars and the previous difficult learning experiences (like the
+            <span class="element">.map() </span>example above). I did feel
+            proud, but my ego didn’t inflate too much, because I understood that
+            I could solve kata this simply due to learning, planning and
+            practice.
+          </p>
+          <p>
+            I learnt that things get simpler with comprehensive understanding.
+            And comprehensive understanding comes from seeking to learn, making
+            mistakes and slowly grasping at concepts until they are easy to
+            reach.
+          </p>
+          <p>
+            Writing the blog post has made me recognise how having a growth
+            mindset and understanding neuroplasticity is crucial when learning
+            to code. It’s so important to remind myself that: ‘yes I can learn
+            this! Look at these two experiences and see how similar they are.
+            You’re simply more familiar with one concept than another, and soon
+            you’ll be mapping and substringing yourself into a wonderful mess’.
+          </p>
         </section>
         <section>
-          <h3><span>Problem Solving Techniques and my thoughts on them:</span></h3>
+          <h3>
+            <span>Problem Solving Techniques and my thoughts on them:</span>
+          </h3>
           <ul>
-            <li> <strong>Pseudocode - </strong>this is something I like and use a lot of</li>
-            <li> <strong>Trying something - </strong>I call this the ‘bash bash’ method. I sometimes feel like I’m bashing around in the dark when I do this, but I do enjoy giving things a go before I go to Google</li>
-            <li> <strong>Rubber ducky method -</strong> I think this is a good technique when there is an error message that doesn’t make sense to me or that I can’t work out.</li>
-            <li> <strong>Reading error messages -</strong> especially with TDD, this technique is really useful. I also like error messages because they tell me exactly which line is wrong</li>
-            <li> <strong>Console.logging -</strong> I do this a lot. I recently forgot that to find the value at an array in a for loop that I needed to use array[i], not just i on its own. console.log() and typeof are useful tools in this kind of situation</li>
-            <li> <strong>Googling -</strong> I do more MDN searching than Google searching. I like to go from MDN to Google when I want to see another practical implementation of a certain method etc.</li>
-            <li> <strong>Asking your peers for help -</strong> I do like to do this as a nearly-last resort. I think that growing my self-sufficiency is important, and solving a problem alone will be a rich learning experience. However, if I am truly stuck I will reach out to other students</li>
-            <li> <strong>Asking coaches for help -</strong> I haven’t explicitly done this yet, but helpful facilitators have jumped into the student help channel which has been super useful. I would also consider my partner a coach as he is a software engineer. He’s certainly been a really good person to turn to when I’m stuck</li>
-            <li> <strong>Improving your process with reflection -</strong> this is something I am still working on. With more knowledge and practice I will be able to refactor my code and create more elegant solutions. For now, I will reflect on solutions others post on CodeWars etc. to see what I can learn from them, which will inform my own coding</li>
-          </ul> 
-      </section>
-      <section>
-        <h3><span>fin.</span></h3>
-        <p>Thanks for reading! Feel free to get in touch and tell me about other great problem solving techniques or resources.</p>
-      </section>
+            <li>
+              <strong>Pseudocode - </strong>this is something I like and use a
+              lot of
+            </li>
+            <li>
+              <strong>Trying something - </strong>I call this the ‘bash bash’
+              method. I sometimes feel like I’m bashing around in the dark when
+              I do this, but I do enjoy giving things a go before I go to Google
+            </li>
+            <li>
+              <strong>Rubber ducky method -</strong> I think this is a good
+              technique when there is an error message that doesn’t make sense
+              to me or that I can’t work out.
+            </li>
+            <li>
+              <strong>Reading error messages -</strong> especially with TDD,
+              this technique is really useful. I also like error messages
+              because they tell me exactly which line is wrong
+            </li>
+            <li>
+              <strong>Console.logging -</strong> I do this a lot. I recently
+              forgot that to find the value at an array in a for loop that I
+              needed to use array[i], not just i on its own. console.log() and
+              typeof are useful tools in this kind of situation
+            </li>
+            <li>
+              <strong>Googling -</strong> I do more MDN searching than Google
+              searching. I like to go from MDN to Google when I want to see
+              another practical implementation of a certain method etc.
+            </li>
+            <li>
+              <strong>Asking your peers for help -</strong> I do like to do this
+              as a nearly-last resort. I think that growing my self-sufficiency
+              is important, and solving a problem alone will be a rich learning
+              experience. However, if I am truly stuck I will reach out to other
+              students
+            </li>
+            <li>
+              <strong>Asking coaches for help -</strong> I haven’t explicitly
+              done this yet, but helpful facilitators have jumped into the
+              student help channel which has been super useful. I would also
+              consider my partner a coach as he is a software engineer. He’s
+              certainly been a really good person to turn to when I’m stuck
+            </li>
+            <li>
+              <strong>Improving your process with reflection -</strong> this is
+              something I am still working on. With more knowledge and practice
+              I will be able to refactor my code and create more elegant
+              solutions. For now, I will reflect on solutions others post on
+              CodeWars etc. to see what I can learn from them, which will inform
+              my own coding
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3><span>fin.</span></h3>
+          <p>
+            Thanks for reading! Feel free to get in touch and tell me about
+            other great problem solving techniques or resources.
+          </p>
+        </section>
       </article>
-      </main>
-      <footer>
-        <p>Human rights reserved. (Duh.)</p>
-      </footer>
+    </main>
+    <footer>
+      <p>Human rights reserved. (Duh.)</p>
+    </footer>
   </body>
 </html>

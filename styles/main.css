@@ -336,6 +336,7 @@ ol {
 
   .body-link {
     font-size: 15px;
+    text-decoration: underline hotpink;
   }
 
   .menu {
@@ -362,35 +363,6 @@ ol {
     height: auto;
     box-shadow: 30px 0px hotpink;
   }
-/*
-
-
-  h3 {
-    width: 300px;
-  }
-
-  h4 {
-    width: 300px;
-  }
-
-  article {
-    margin: auto;
-    width: 300px;
-    height: auto;
-    overflow: hidden;
-    border-bottom: solid 1px;
-  }
-
-  .index article div {
-    width: 300px;
-    height: auto;
-    overflow: hidden;
-  }
-
-.image-holder {
-  width: 300px;
-  height: auto;
-  overflow: hidden; */
 
   li {
     max-width: 100%;
@@ -432,6 +404,7 @@ section {
 
 .body-link {
     font-size: 18px;
+    text-decoration: underline hotpink;
   }
 
   .em {
@@ -482,10 +455,8 @@ section {
   }
 }
 
-/* computer screen */
-@media (min-width: 1000px) {
-  section {
-    padding: 0 150px;
-
-  }
+@media (max-width:1024px) {
+ h1 a:hover {
+  color: navy;
+ }
 }
