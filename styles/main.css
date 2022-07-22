@@ -95,7 +95,7 @@ i:hover {
 
 section {
   margin: 0 auto 50px ;
-  width: 100%;
+  width: 80%;
 }
 
 #mce-responses {
@@ -229,8 +229,6 @@ footer {
 
 .blog div {
   max-width: 100%;
-  margin: auto;
-  padding: 0px 5px 25px;
 }
 .blog h2 {
   font-family: 'Gentium Book Plus', serif;
@@ -283,7 +281,7 @@ h4 {
 }
 
 .codepen {
-  max-width: 800px;
+  max-width: 100%;
   border-radius: 10px;
   margin: 10px 0px;
 }
