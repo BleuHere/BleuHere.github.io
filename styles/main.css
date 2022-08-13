@@ -176,6 +176,11 @@ strong {
   padding: 25px 0px 0px 0px;
 }
 
+#hedy {
+  max-height: 3000px;
+  width: auto;
+}
+
 .index article {
   margin: auto auto 40px;
   max-width: 600px;
