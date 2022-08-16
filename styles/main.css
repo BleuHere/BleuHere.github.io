@@ -377,9 +377,9 @@ ol {
 
 section {
   margin: auto;
-  max-width: 100%;
+  max-width: 90%;
   margin-bottom: 50px;
-  padding: 0 5px;
+  padding: 0 0px;
 }
 
 }
@@ -443,7 +443,7 @@ section {
     margin: auto;
     max-width: 100%;
     margin-bottom: 50px;
-    padding: 0 30px;
+
   }
 
   .index article {
